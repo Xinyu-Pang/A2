@@ -1,0 +1,42 @@
+Here are the extracted abstractions that represent common sub-routines:
+{element_type} represents the corresponding type of the chosen element.
+
+
+1. Choose task type
+    #{task} could be Events, Trains, Flights, Bundle&Save, Help, and so on, depending on the task description and html
+    `Action: CLICK [{element_id}] ([span] {task} -> CLICK)`
+
+2. Add constraints
+    2.1 Set location
+        2.1.1 Choose city or region
+            `Action: CLICK [{element_id}] ([{element_type}] City or Region -> CLICK)`
+            `Action: TYPE [{element_id}] {location} ([{element_type}] {City or airport} -> TYPE: {location})`
+        2.1.2 Type in locations
+            `Action: [textbox]  From -> TYPE: {starting_origin}`
+            `Action: [b]  {starting_origin} -> CLICK`
+            `Action: [textbox]  To -> TYPE: {destination}`
+            `Action: [span]  {destination} -> CLICK`
+
+    2.2 Set time
+        2.2.1 Specify date range
+            `Action: CLICK [{element_id}] ([{element_type}] {arrive_date} -> CLICK)`
+            `Action: CLICK [{element_id}] ([{element_type}] {leave_date} -> CLICK)`
+        2.2.2 Filter by specific month
+            `Action: CLICK [{element_id}] ([button] Filter by Date -> CLICK)`
+
+3. Action
+    # {action} could be Search, Book, Select, Apply, Click, and so on.
+    `Action: CLICK [{element_id}] ([{element_type}] {action} -> CLICK)`
+
+4. Sort
+    4.1 Sort by price (from low to high)
+        `Action: CLICK [{element_id}] ([div] Price (Low to High) -> CLICK)`
+
+5. Event-specific actions
+    5.1 Find events in a specific city
+        `Action: TYPE [{element_id}] [New York City] ([textbox] {City} -> TYPE: {location})`
+        `Action: CLICK [{element_id}] ([button] Apply -> CLICK)`
+
+6. Help and Information
+    6.1 Access help pages
+        `Action: CLICK [{element_id}] ([link] Buying Tickets -> CLICK)`

@@ -1,0 +1,62 @@
+## Query 1: Book a cheapest bundle and save option for 2 adults from Ahmedabad to Dubai on April 5 with free cancellation options, hotel should be a 3 star near Burj Khalifa with guest rating above 4, one night.
+    Actions:
+        `Action: [span]  Bundle & Save -> CLICK`
+        `Action: [textbox]  From -> TYPE: ahmedabad`
+        `Action: [b]  Ahmedabad -> CLICK`
+        `Action: [textbox]  To -> TYPE: dubai`
+        `Action: [span]  DXB -> CLICK`
+        `Action: [textbox]  Depart -> CLICK`
+        `Action: [listitem]  5 -> CLICK`
+        `Action: [listitem]  6 -> CLICK`
+        `Action: [div]  Search -> CLICK`
+        `Action: [span]  4+ -> CLICK`
+        `Action: [div]  Price (Low to High) -> CLICK`
+        `Action: [button]  Book -> CLICK`
+
+<Split token>
+1. Choose task type
+    #{task} could be Trains, Flights, and so on, depending on the task description and html
+    `Action: CLICK [{element_id}] ([span] {task} -> CLICK)`
+
+2. Add constraints
+    2.1 Set location
+        `Action: CLICK [{element_id}] ([{element_type}] City or Region -> CLICK)`
+        `Action: TYPE [{element_id}] {location} ([{element_type}] {City or airport} -> TYPE: {location})`
+    2.2 Set time
+        `Action: CLICK [{element_id}] ([{element_type}] {arrive_date} -> CLICK)`
+        `Action: CLICK [{element_id}] ([{element_type}] {leave_date} -> CLICK)`
+
+3. Action
+    # {action} could be Search, Select, and so on.
+    `Action: CLICK [{element_id}] ([{element_type}] {action} -> CLICK)`
+
+4. Other
+    `Action: CLICK [{element_id}] ([i]   -> CLICK)
+
+<Split token>
+1. Choose task type
+    #{task} could be Trains, Flights, Bundle&Save, and so on, depending on the task description and html
+    `Action: CLICK [{element_id}] ([span] {task} -> CLICK)`
+
+2. Add constraints
+    2.1 Set location
+        2.1.1 Choose city or airport
+            `Action: CLICK [{element_id}] ([{element_type}] City or Region -> CLICK)`
+            `Action: TYPE [{element_id}] {location} ([{element_type}] {City or airport} -> TYPE: {location})`
+        2.1.2 Type in locations
+            `Action: [textbox]  From -> TYPE: {starting_origin}`
+            `Action: [b]  {starting_origin} -> CLICK`
+            `Action: [textbox]  To -> TYPE: {destination}`
+            `Action: [span]  {destination} -> CLICK`
+
+    2.2 Set time
+        `Action: CLICK [{element_id}] ([{element_type}] {arrive_date} -> CLICK)`
+        `Action: CLICK [{element_id}] ([{element_type}] {leave_date} -> CLICK)`
+
+3. Action
+    # {action} could be Search, Book, Select, and so on.
+    `Action: CLICK [{element_id}] ([{element_type}] {action} -> CLICK)`
+
+4. Sort
+    4.1 Sort by price (from low to high)
+        `Action: CLICK [{element_id}] ([div]  Price (Low to High) -> CLICK)`

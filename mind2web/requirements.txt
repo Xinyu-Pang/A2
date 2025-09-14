@@ -1,0 +1,12 @@
+# Core dependencies for mind2web project
+numpy
+tqdm
+openai>=1.0.0
+tiktoken
+backoff==2.2.1
+lxml==4.9.3
+matplotlib
+
+# Additional dependencies found in code
+dashscope
+huggingface_hub

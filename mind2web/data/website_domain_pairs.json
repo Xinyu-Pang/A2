@@ -1,0 +1,534 @@
+{
+    "seatgeek": {
+        "domain": "Entertainment",
+        "subdomain": "Event"
+    },
+    "kohls": {
+        "domain": "Shopping",
+        "subdomain": "Department"
+    },
+    "budget": {
+        "domain": "Travel",
+        "subdomain": "Car rental"
+    },
+    "carmax": {
+        "domain": "Shopping",
+        "subdomain": "Auto"
+    },
+    "delta": {
+        "domain": "Travel",
+        "subdomain": "Airlines"
+    },
+    "ticketcenter": {
+        "domain": "Entertainment",
+        "subdomain": "Event"
+    },
+    "sixflags": {
+        "domain": "Travel",
+        "subdomain": "Other"
+    },
+    "viator": {
+        "domain": "Travel",
+        "subdomain": "Other"
+    },
+    "imdb": {
+        "domain": "Entertainment",
+        "subdomain": "Movie"
+    },
+    "newegg": {
+        "domain": "Shopping",
+        "subdomain": "Digital"
+    },
+    "underarmour": {
+        "domain": "Shopping",
+        "subdomain": "Fashion"
+    },
+    "gamestop": {
+        "domain": "Shopping",
+        "subdomain": "Speciality"
+    },
+    "tvguide": {
+        "domain": "Entertainment",
+        "subdomain": "Movie"
+    },
+    "airbnb": {
+        "domain": "Travel",
+        "subdomain": "Hotel"
+    },
+    "new.mta.info": {
+        "domain": "Travel",
+        "subdomain": "Ground"
+    },
+    "redbox": {
+        "domain": "Entertainment",
+        "subdomain": "Movie"
+    },
+    "eventbrite": {
+        "domain": "Entertainment",
+        "subdomain": "Event"
+    },
+    "nyc": {
+        "domain": "Entertainment",
+        "subdomain": "Event"
+    },
+    "jetblue": {
+        "domain": "Travel",
+        "subdomain": "Airlines"
+    },
+    "soundcloud": {
+        "domain": "Entertainment",
+        "subdomain": "Music"
+    },
+    "mbta": {
+        "domain": "Travel",
+        "subdomain": "Ground"
+    },
+    "foxsports": {
+        "domain": "Entertainment",
+        "subdomain": "Sports"
+    },
+    "resy": {
+        "domain": "Travel",
+        "subdomain": "Restaurant"
+    },
+    "amtrak": {
+        "domain": "Travel",
+        "subdomain": "Ground"
+    },
+    "booking": {
+        "domain": "Travel",
+        "subdomain": "General"
+    },
+    "uniqlo": {
+        "domain": "Shopping",
+        "subdomain": "Fashion"
+    },
+    "tesla": {
+        "domain": "Shopping",
+        "subdomain": "Auto"
+    },
+    "spothero": {
+        "domain": "Travel",
+        "subdomain": "Other"
+    },
+    "last.fm": {
+        "domain": "Entertainment",
+        "subdomain": "Music"
+    },
+    "ign": {
+        "domain": "Entertainment",
+        "subdomain": "Game"
+    },
+    "discogs": {
+        "domain": "Entertainment",
+        "subdomain": "Music"
+    },
+    "rottentomatoes": {
+        "domain": "Entertainment",
+        "subdomain": "Movie"
+    },
+    "bookdepository": {
+        "domain": "Shopping",
+        "subdomain": "Speciality"
+    },
+    "qatarairways": {
+        "domain": "Travel",
+        "subdomain": "Airlines"
+    },
+    "ikea": {
+        "domain": "Shopping",
+        "subdomain": "Speciality"
+    },
+    "rentalcars": {
+        "domain": "Travel",
+        "subdomain": "Car rental"
+    },
+    "menards": {
+        "domain": "Shopping",
+        "subdomain": "Speciality"
+    },
+    "amctheatres": {
+        "domain": "Entertainment",
+        "subdomain": "Movie"
+    },
+    "kayak": {
+        "domain": "Travel",
+        "subdomain": "Airlines"
+    },
+    "carnival": {
+        "domain": "Travel",
+        "subdomain": "Other"
+    },
+    "apple": {
+        "domain": "Shopping",
+        "subdomain": "Digital"
+    },
+    "target": {
+        "domain": "Shopping",
+        "subdomain": "General"
+    },
+    "amazon": {
+        "domain": "Shopping",
+        "subdomain": "General"
+    },
+    "cabelas": {
+        "domain": "Shopping",
+        "subdomain": "Speciality"
+    },
+    "flightaware": {
+        "domain": "Travel",
+        "subdomain": "Other"
+    },
+    "store.steampowered": {
+        "domain": "Entertainment",
+        "subdomain": "Game"
+    },
+    "ryanair": {
+        "domain": "Travel",
+        "subdomain": "Airlines"
+    },
+    "boardgamegeek": {
+        "domain": "Entertainment",
+        "subdomain": "Game"
+    },
+    "yellowpages": {
+        "domain": "Travel",
+        "subdomain": "Restaurant"
+    },
+    "rei": {
+        "domain": "Shopping",
+        "subdomain": "Speciality"
+    },
+    "espn": {
+        "domain": "Entertainment",
+        "subdomain": "Sports"
+    },
+    "yelp": {
+        "domain": "Travel",
+        "subdomain": "Restaurant"
+    },
+    "kbb": {
+        "domain": "Shopping",
+        "subdomain": "Auto"
+    },
+    "exploretock": {
+        "domain": "Travel",
+        "subdomain": "Restaurant"
+    },
+    "united": {
+        "domain": "Travel",
+        "subdomain": "Airlines"
+    },
+    "nfl": {
+        "domain": "Entertainment",
+        "subdomain": "Sports"
+    },
+    "cargurus": {
+        "domain": "Shopping",
+        "subdomain": "Auto"
+    },
+    "travelzoo": {
+        "domain": "Travel",
+        "subdomain": "General"
+    },
+    "agoda": {
+        "domain": "Travel",
+        "subdomain": "General"
+    },
+    "us.megabus": {
+        "domain": "Travel",
+        "subdomain": "Ground"
+    },
+    "cvs": {
+        "domain": "Shopping",
+        "subdomain": "Speciality"
+    },
+    "instacart": {
+        "domain": "Shopping",
+        "subdomain": "General"
+    },
+    "ultimate-guitar": {
+        "domain": "Entertainment",
+        "subdomain": "Music"
+    },
+    "koa": {
+        "domain": "Travel",
+        "subdomain": "Hotel"
+    },
+    "parking": {
+        "domain": "Travel",
+        "subdomain": "Other"
+    },
+    "marriott": {
+        "domain": "Travel",
+        "subdomain": "Hotel"
+    },
+    "aa": {
+        "domain": "Travel",
+        "subdomain": "Airlines"
+    },
+    "expedia": {
+        "domain": "Travel",
+        "subdomain": "General"
+    },
+    "sports.yahoo": {
+        "domain": "Entertainment",
+        "subdomain": "Sports"
+    },
+    "trip": {
+        "domain": "Travel",
+        "subdomain": "General"
+    },
+    "recreation.gov": {
+        "domain": "Travel",
+        "subdomain": "Other"
+    },
+    "shopping.google": {
+        "domain": "Shopping",
+        "subdomain": "General"
+    },
+    "tripadvisor": {
+        "domain": "Travel",
+        "subdomain": "Restaurant"
+    },
+    "cars": {
+        "domain": "Shopping",
+        "subdomain": "Auto"
+    },
+    "tiktok.music": {
+        "domain": "Entertainment",
+        "subdomain": "Music"
+    },
+    "stubhub": {
+        "domain": "Entertainment",
+        "subdomain": "Event"
+    },
+    "nba": {
+        "domain": "Entertainment",
+        "subdomain": "Sports"
+    },
+    "macys": {
+        "domain": "Shopping",
+        "subdomain": "Department"
+    },
+    "bestbuy": {
+        "domain": "Shopping",
+        "subdomain": "Digital"
+    },
+    "reddit": {
+        "domain": "Info",
+        "subdomain": "Social media"
+    },
+    "thumbtack": {
+        "domain": "Service",
+        "subdomain": "Home service"
+    },
+    "stocktwits": {
+        "domain": "Info",
+        "subdomain": "Social media"
+    },
+    "linkedin": {
+        "domain": "Info",
+        "subdomain": "Social media"
+    },
+    "akc.org": {
+        "domain": "Service",
+        "subdomain": "Pet"
+    },
+    "apartments": {
+        "domain": "Info",
+        "subdomain": "Housing"
+    },
+    "fedex": {
+        "domain": "Service",
+        "subdomain": "Shipping"
+    },
+    "weather": {
+        "domain": "Info",
+        "subdomain": "Weather"
+    },
+    "careers.walmart": {
+        "domain": "Info",
+        "subdomain": "Job"
+    },
+    "uhaul": {
+        "domain": "Service",
+        "subdomain": "Moving"
+    },
+    "student": {
+        "domain": "Info",
+        "subdomain": "Housing"
+    },
+    "redfin": {
+        "domain": "Info",
+        "subdomain": "Housing"
+    },
+    "glassdoor": {
+        "domain": "Info",
+        "subdomain": "Job"
+    },
+    "indeed": {
+        "domain": "Info",
+        "subdomain": "Job"
+    },
+    "ohio.gov": {
+        "domain": "Service",
+        "subdomain": "Government"
+    },
+    "accuweather": {
+        "domain": "Info",
+        "subdomain": "Weather"
+    },
+    "health.usnews": {
+        "domain": "Service",
+        "subdomain": "Health"
+    },
+    "healthgrades": {
+        "domain": "Service",
+        "subdomain": "Health"
+    },
+    "twitter": {
+        "domain": "Info",
+        "subdomain": "Social media"
+    },
+    "udemy": {
+        "domain": "Info",
+        "subdomain": "Education"
+    },
+    "bbb.org": {
+        "domain": "Service",
+        "subdomain": "Home service"
+    },
+    "theweathernetwork": {
+        "domain": "Info",
+        "subdomain": "Weather"
+    },
+    "pensketruckrental": {
+        "domain": "Service",
+        "subdomain": "Moving"
+    },
+    "zocdoc": {
+        "domain": "Service",
+        "subdomain": "Health"
+    },
+    "usnews.education": {
+        "domain": "Info",
+        "subdomain": "Education"
+    },
+    "usps": {
+        "domain": "Service",
+        "subdomain": "Shipping"
+    },
+    "umich.edu": {
+        "domain": "Info",
+        "subdomain": "Education"
+    },
+    "allrecipes": {
+        "domain": "Info",
+        "subdomain": "Cooking"
+    },
+    "cookpad": {
+        "domain": "Info",
+        "subdomain": "Cooking"
+    },
+    "petfinder": {
+        "domain": "Service",
+        "subdomain": "Pet"
+    },
+    "adoptapet": {
+        "domain": "Service",
+        "subdomain": "Pet"
+    },
+    "epicurious": {
+        "domain": "Info",
+        "subdomain": "Cooking"
+    },
+    "coinmarketcap": {
+        "domain": "Info",
+        "subdomain": "Finance"
+    },
+    "finance.google": {
+        "domain": "Info",
+        "subdomain": "Finance"
+    },
+    "ohiomeansjobs.ohio.gov": {
+        "domain": "Info",
+        "subdomain": "Job"
+    },
+    "osu.edu": {
+        "domain": "Info",
+        "subdomain": "Education"
+    },
+    "webmd": {
+        "domain": "Service",
+        "subdomain": "Health"
+    },
+    "ups": {
+        "domain": "Service",
+        "subdomain": "Shipping"
+    },
+    "healthline": {
+        "domain": "Service",
+        "subdomain": "Health"
+    },
+    "babycenter": {
+        "domain": "Service",
+        "subdomain": "Health"
+    },
+    "coursera.org": {
+        "domain": "Info",
+        "subdomain": "Education"
+    },
+    "dmv.virginia.gov": {
+        "domain": "Service",
+        "subdomain": "Government"
+    },
+    "drugs": {
+        "domain": "Service",
+        "subdomain": "Health"
+    },
+    "extraspace": {
+        "domain": "Service",
+        "subdomain": "Moving"
+    },
+    "landwatch": {
+        "domain": "Info",
+        "subdomain": "Housing"
+    },
+    "movoto": {
+        "domain": "Info",
+        "subdomain": "Housing"
+    },
+    "ca.gov": {
+        "domain": "Service",
+        "subdomain": "Government"
+    },
+    "craigslist.org": {
+        "domain": "Service",
+        "subdomain": "Home service"
+    },
+    "finance.yahoo": {
+        "domain": "Info",
+        "subdomain": "Finance"
+    },
+    "gov.uk": {
+        "domain": "Service",
+        "subdomain": "Government"
+    },
+    "justice.gov": {
+        "domain": "Service",
+        "subdomain": "Government"
+    },
+    "pinterest": {
+        "domain": "Info",
+        "subdomain": "Social media"
+    },
+    "mayoclinic.org": {
+        "domain": "Service",
+        "subdomain": "Health"
+    },
+    "hiring.amazon": {
+        "domain": "Info",
+        "subdomain": "Job"
+    }
+}

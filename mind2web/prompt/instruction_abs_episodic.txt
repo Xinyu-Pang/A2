@@ -1,0 +1,9 @@
+<Task> Integrate the existing semantic abstraction (a_{i}) and next query (q_{i+1}) to refine a new abstraction (\hat{a_i}). The new abstraction contain useful information which assists in solving next query.
+
+<Abstraction Requirements> 
+1. Hierarchical: The abstractions should be multi-layered. Higher-level abstractions should represent lower-level ones while ignoring irrelevant details. The structure and layer depth should be dynamically adjusted.
+2. Comprehensive: (a_i) should encapsulate patterns from all tasks, balancing task-specific details (in lower-level abstractions) and general principles (in higher-level abstractions).
+
+<Task Format> The extracted abstractions should follow this format: {Operation_type} [{element_id}] {Operation_value} ([{element_type} {element_content} -> {Operation_type}]). If the Operation_type is CLICK, then {Operation_value} should not be included.
+
+<Example> Combining the existing semantic abstraction (a_{i}) and next task query (q_{i+1}) to identify representative patterns, organize them hierarchically, and ensure varying levels of abstractions reflect increasing generality. (a_i) should assist in solving (q_{i+1}) by providing a clear and comprehensive understanding of the previous completed tasks and the current task query.
